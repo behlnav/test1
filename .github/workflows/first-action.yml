@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print Greeting
-        run: echo "Hello World"
+        run: |
+            echo "Hello World"
+            echo "multi line test"
       - name: Print Goodbye
         run: echo "Good bye"
       
